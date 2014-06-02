@@ -1,0 +1,36 @@
+\begin{thebibliography}{1}
+
+\bibitem{back1996evolutionary}
+T.~B{\"a}ck.
+\newblock {\em Evolutionary algorithms in theory and practice: evolution
+  strategies, evolutionary programming, genetic algorithms}.
+\newblock Oxford university press, 1996.
+
+\bibitem{garcia2013evospace}
+M.~Garc{\'\i}a-Valdez, L.~Trujillo, F.~F. de~Vega, J.~J.~M. Guerv{\'o}s, and
+  G.~Olague.
+\newblock Evospace: a distributed evolutionary platform based on the tuple
+  space model.
+\newblock In {\em Applications of Evolutionary Computation}, pages 499--508.
+  Springer, 2013.
+
+\bibitem{garcia2013evospacei}
+M.~Garc{\'\i}a-Valdez, L.~Trujillo, F.~F. de~Vega, J.~J.~M. Guerv{\'o}s, and
+  G.~Olague.
+\newblock Evospace-interactive: A framework to develop distributed
+  collaborative-interactive evolutionary algorithms for artistic design.
+\newblock In {\em Evolutionary and Biologically Inspired Music, Sound, Art and
+  Design}, pages 121--132. Springer, 2013.
+
+\bibitem{malcolm2008approach}
+J.~A. Malcolm and P.~C. Lane.
+\newblock An approach to detecting article spinning.
+\newblock In {\em Proceedings of the Third International Conference on
+  Plagiarism}, 2008.
+
+\bibitem{whitley1994genetic}
+D.~Whitley.
+\newblock A genetic algorithm tutorial.
+\newblock {\em Statistics and computing}, 4(2):65--85, 1994.
+
+\end{thebibliography}
