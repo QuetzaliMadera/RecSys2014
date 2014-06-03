@@ -52,10 +52,11 @@ by determining an individual's corresponding cluster, and showing an
 evolved version of the text for that particular cluster.
 \end{abstract}
 
-\category{H.1}{Models and Principles}{User/Machine Systems}{Software Psychology}
-\category{J.1}{Administrative Data Processing}[Marketing]
-\terms{Human Factors}
-\keywords{Interactive Evolutionary Computation, Textual Advertising}
+\category{H.4}{Information Systems Applications}{Miscellaneous}
+\category{D.2.8}{Software Engineering}{Metrics}[complexity measures, performance measures]
+\terms{Theory}
+
+\keywords{ACM proceedings, \LaTeX, text tagging}
 
 \section{Introduction}
 
@@ -77,12 +78,11 @@ interact with the evolution process (see Section
 \ref{EvolutionProcess}). The number of habitats where the texts will
 be evolving will depend on the predefined number of clusters.
 
+\subsection{Justification}
+
 The reason for the development of the proposed method in this work is
 the potential to lower monetary costs in advertisement campaigns and
-simplification of advertisement logistics, as text plays an important
-role in e-commerce applications, as this is one of the most common
-ways of giving information about a commercial product to the
-consumers \cite{mcquarrie1999visual}.
+simplification of advertisement logistics.
 
 For example, this method could be implemented in a website. The
 profiles of the users could be obtained using their Facebook profiles' information,
@@ -138,6 +138,32 @@ function is determined by the subjective evaluation of a human being,
 e.g., a person considering an advertisement text to be better than
 another.
 
+\subsection{evoSpace and evoSpace-Interactive}
+\label{EvoSpace}
+
+evoSpace is a platform which aims to develop models and strategies
+for IEC (see Section \ref{InteractiveEvolutionaryComputation}), aware of cloud-based
+computing technologies and new interaction technologies (intelligent
+devices and environments) \cite{garcia2013evospace}.
+
+evoSpace-Interactive is a framework, which allows a software developer
+to construct a front end for an IEC application that uses evoSpace as
+its evolutionary habitat \cite{garcia2013evospacei}.
+
+Initially, evoSpace-Interactive was built to create designs and art, using
+biologically inspired computer techniques. The platform had to be
+modified in order to be able to create advertisement texts. In Figure
+\ref{PicShapes}, an evoSpace application, called "Shapes,'' is
+shown. The initial nature of the evoSpace project can be seen in the
+Shapes application.
+
+\begin{figure}
+  \centering
+  \epsfig{file=shapes.eps, width=3.5in}
+  \caption{evoSpace project, Shapes}
+  \label{PicShapes}
+\end{figure}
+
 \subsection{Article Spinning}
 
 Article spinning is a method used to create multiple versions of a
@@ -154,30 +180,16 @@ different text content \cite{malcolm2008approach}.
 \subsection{Related Work}
 \label{RelatedWork}
 
-In 2007, Kazienko and Adamski proposed the extraction of user patterns
-through the use of web content and web usage mining techniques, and
-the creation of clusters from this information \cite{kazienko2007adrosa}. Zheng, Chen, and
-Jiang, 2012, compared the performance of text-only, image-only and
-text and image ads, and concluded that there is no significant
-difference among their performances \cite{zheng2012ontology}. Keng and Liu, 2013,
-analyze how websites need to be designed according to the user's
-personality and their interests \cite{keng2013can}. Wu, Zongda, et. al., 2013, focus on
-the optimal positioning of an advertisement, rather than what ad to
-show to the user \cite{wu2013position}. Fan, Teng-Kai, and Chia-Hui Chang, 2011,
-propose a software framework to analyze the content from blogs,
-determines their subject, and recommends advertisements that are
-relevant according the blog's content \cite{fan2011blogger}. Dao, Tuan Hung, Seung Ryul
-Jeong, and Hyunchul Ahn, 2012, developed a tool that recommends ads
-according to the context of an individual. They use the user's
-location to provide better advertisements. Their recommender system is
-based on collaborative filtering \cite{dao2012novel}. Hsieh, Yu-Chen, and
-Kuo-Hsiang Chen, 2011, and Lewis, Whitler and Hoeg, 2013, study how
-the type of content (i.e., videos, text, images, or a mix of these
-types) of a website affects the users' attention towards website
-advertisements \cite{hsieh2011different}
-\cite{lewis2013customer}. Finally, the persuasion test used in this
-work has already been used before in \cite{madera2014ad}.
+\subsubsection{evoSpace-Interactive}
 
+evoSpace-interactive was initially tested by implementing an
+interactive evolutionary computation program called "Shapes''
+\cite{garcia2013evospace}. This software evolved images formed by equilateral
+triangles that could have one of twelve possible colors. Currently,
+EvoSpace has made modifications to the images displayed by changing
+the shape to more attractive animations that last for a short period
+of time. For this work, we modified evoSpace to be capable of
+displaying text ads instead of images.
 
 \section{Methodology}
 
@@ -202,7 +214,9 @@ similar to that used in Article Spinning algorithms.
   \label{PicArticleSpinning}
 \end{figure}
 
-
+The text presented in Figure \ref{PicArticleSpinning} is written in
+Spanish, as it's the first language of the participants of the
+experiment.
 
 \subsection{Constructed Texts}
 
@@ -248,7 +262,7 @@ genetic material of the chromosomes.
 \subsection{evoSpace Adaptation}
 \label{EvoSpaceAdaptation}
 
-evoSpace \cite{garcia2013evospace} \cite{garcia2013evospacei} had to be modified in several areas of its programming. A new
+evoSpace had to be modified in several areas of its programming. A new
 module accepts a chromosome as input, and produces a version of the
 advertisement text based on it. The front end of the application
 changed to be able to display text instead of animations, as in the

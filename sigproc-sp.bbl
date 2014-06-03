@@ -1,10 +1,21 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{back1996evolutionary}
 T.~B{\"a}ck.
 \newblock {\em Evolutionary algorithms in theory and practice: evolution
   strategies, evolutionary programming, genetic algorithms}.
 \newblock Oxford university press, 1996.
+
+\bibitem{dao2012novel}
+T.~H. Dao, S.~R. Jeong, and H.~Ahn.
+\newblock A novel recommendation model of location-based advertising:
+  Context-aware collaborative filtering using ga approach.
+\newblock {\em Expert Systems with Applications}, 39(3):3731--3739, 2012.
+
+\bibitem{fan2011blogger}
+T.-K. Fan and C.-H. Chang.
+\newblock Blogger-centric contextual advertising.
+\newblock {\em Expert Systems with Applications}, 38(3):1777--1788, 2011.
 
 \bibitem{garcia2013evospace}
 M.~Garc{\'\i}a-Valdez, L.~Trujillo, F.~F. de~Vega, J.~J.~M. Guerv{\'o}s, and
@@ -22,15 +33,62 @@ M.~Garc{\'\i}a-Valdez, L.~Trujillo, F.~F. de~Vega, J.~J.~M. Guerv{\'o}s, and
 \newblock In {\em Evolutionary and Biologically Inspired Music, Sound, Art and
   Design}, pages 121--132. Springer, 2013.
 
+\bibitem{hsieh2011different}
+Y.-C. Hsieh and K.-H. Chen.
+\newblock How different information types affect viewer’s attention on
+  internet advertising.
+\newblock {\em Computers in Human Behavior}, 27(2):935--945, 2011.
+
+\bibitem{kazienko2007adrosa}
+P.~Kazienko and M.~Adamski.
+\newblock Adrosa—adaptive personalization of web advertising.
+\newblock {\em Information Sciences}, 177(11):2269--2295, 2007.
+
+\bibitem{keng2013can}
+C.-J. Keng and C.-C. Liu.
+\newblock Can avatar and self-referencing really increase the effects of online
+  2-d and 3-d advertising?
+\newblock {\em Computers in Human Behavior}, 29(3):791--802, 2013.
+
+\bibitem{lewis2013customer}
+M.~Lewis, K.~A. Whitler, and J.~Hoegg.
+\newblock Customer relationship stage and the use of picture-dominant versus
+  text-dominant advertising: A field study.
+\newblock {\em Journal of Retailing}, 89(3):263--280, 2013.
+
+\bibitem{madera2014ad}
+Q.~Madera, M.~Garc{\'\i}a-Valdez, and A.~Mancilla.
+\newblock Ad text optimization using interactive evolutionary computation
+  techniques.
+\newblock In {\em Recent Advances on Hybrid Approaches for Designing
+  Intelligent Systems}, pages 671--680. Springer, 2014.
+
 \bibitem{malcolm2008approach}
 J.~A. Malcolm and P.~C. Lane.
 \newblock An approach to detecting article spinning.
 \newblock In {\em Proceedings of the Third International Conference on
   Plagiarism}, 2008.
 
+\bibitem{mcquarrie1999visual}
+E.~F. McQuarrie and D.~G. Mick.
+\newblock Visual rhetoric in advertising: Text-interpretive, experimental, and
+  reader-response analyses.
+\newblock {\em Journal of consumer research}, 26(1):37--54, 1999.
+
 \bibitem{whitley1994genetic}
 D.~Whitley.
 \newblock A genetic algorithm tutorial.
 \newblock {\em Statistics and computing}, 4(2):65--85, 1994.
+
+\bibitem{wu2013position}
+Z.~Wu, G.~Xu, C.~Lu, E.~Chen, Y.~Zhang, and H.~Zhang.
+\newblock Position-wise contextual advertising: Placing relevant ads at
+  appropriate positions of a web page.
+\newblock {\em Neurocomputing}, 120:524--535, 2013.
+
+\bibitem{zheng2012ontology}
+H.-T. Zheng, J.-Y. Chen, and Y.~Jiang.
+\newblock An ontology-based approach to chinese semantic advertising.
+\newblock {\em Information Sciences}, 216:138--154, 2012.
 
 \end{thebibliography}
